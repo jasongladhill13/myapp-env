@@ -1,5 +1,5 @@
 image:
   repository: ghcr.io/jasongladhill13/fastapiapp
-  tag: "initial"
+  tag: 1c59193
 service:
   port: 80
