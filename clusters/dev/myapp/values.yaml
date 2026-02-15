@@ -1,5 +1,5 @@
 image:
-  repository: ghcr.io/your-github-org-or-user/myapp
+  repository: ghcr.io/jasongladhill13/fastapiapp
   tag: "initial"
 service:
   port: 80
