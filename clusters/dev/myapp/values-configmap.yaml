@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myapp-values
+  namespace: myapp
+data:
+  values.yaml: |
+    image:
+      repository: ghcr.io/your-github-org-or-user/myapp
+      tag: "initial"
+    service:
+      port: 80
